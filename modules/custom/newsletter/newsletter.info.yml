@@ -1,0 +1,9 @@
+name: Newsletter
+description: Allows users to subscribe for a newsletter and provides a email contact list for administrators.
+package: Newsletter
+type: module
+dependencies: 
+  - block
+version: 1.0
+core: 8.x
+configure: newsletter.admin_settings

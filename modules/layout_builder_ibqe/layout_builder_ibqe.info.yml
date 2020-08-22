@@ -1,0 +1,11 @@
+name: Layout Builder Inline Block Quick Edit
+description: Quick edit support for innline blocks.
+core_version_requirement: ^8.8 || ^9
+type: module
+dependencies:
+  - drupal:layout_builder
+
+# Information added by Drupal.org packaging script on 2020-03-04
+version: '8.x-1.x-dev'
+project: 'layout_builder_ibqe'
+datestamp: 1583339663

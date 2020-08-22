@@ -1,0 +1,9 @@
+services:
+  layout_builder_ibqe.block_revision_helper:
+    class: Drupal\layout_builder_ibqe\BlockRevisionHelper
+    arguments: ['@entity_type.manager', '@inline_block.usage', '@module_handler']
+  layout_builder_ibqe.block_component_contextual_link:
+    class: Drupal\layout_builder_ibqe\EventSubscriber\BlockComponentContextualLink
+    arguments: ['@layout_builder_ibqe.block_revision_helper']
+    tags:
+      - { name: event_subscriber }

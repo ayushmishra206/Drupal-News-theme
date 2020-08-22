@@ -1,0 +1,11 @@
+view newsletter:
+  title: 'View newsletter Form'
+  description: 'View and submit the newsletter form.'
+access newsletter report:
+  title: 'Access List of newsletters'
+  description: 'View the report listing all newsletters submitted.'
+administer newsletter:
+  title: 'Administer newsletter Settings'
+  description: 'Access the newsletter administrative settings page.'
+  restrict access: true
+

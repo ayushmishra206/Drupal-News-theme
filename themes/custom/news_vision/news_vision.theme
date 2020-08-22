@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_theme_suggestions_alter()
+ */
+
+function news_vision_theme_suggestions_image_alter(array &$suggestions, array $variables) {
+  $suggestions[] = 'image__' . $variables['style_name'];
+}

@@ -1,0 +1,14 @@
+newsletter.admin_settings:
+  path: '/admin/config/content/newsletter'
+  defaults:
+    _form: '\Drupal\newsletter\Form\newsletterSettingsForm'
+    _title: 'Newsletter List Settings'
+  requirements:
+    _permission: 'administer newsletter'
+newsletter.report:
+  path: '/admin/reports/newsletter'
+  defaults:
+    _controller: '\Drupal\newsletter\Controller\ReportController::report' 
+    _title: 'List of Subscribers'
+  requirements:
+    _permission: 'view newsletter'

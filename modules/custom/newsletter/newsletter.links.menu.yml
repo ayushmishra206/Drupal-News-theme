@@ -1,0 +1,12 @@
+newsletter.admin_settings:
+  title: 'Newsletter List Settings'
+  description: 'Control display of Newsletter form'
+  route_name: newsletter.admin_settings
+  parent: system.admin_config_content
+  weight: 10
+newsletter.report:
+  title: 'List of Email submissions'
+  description: 'View listing of Emails'
+  route_name: newsletter.report
+  parent: system.admin_reports
+  weight: 0

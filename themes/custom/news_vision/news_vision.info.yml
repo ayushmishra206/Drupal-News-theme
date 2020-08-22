@@ -1,0 +1,22 @@
+name: News Vision
+type: theme
+base theme: classy
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+core: 8.x
+
+
+libraries:
+  - news_vision/global-css
+  - news_vision/global-js
+  
+
+regions:
+  top_bar: 'Topbar'
+  header: 'Header'
+  navigation: 'Navigation'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

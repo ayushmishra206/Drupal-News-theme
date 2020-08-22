@@ -1,0 +1,24 @@
+global-css:
+  version: 1.0
+  css:
+    base:
+      css/animate.css: {}
+      css/bootstrap.css: {}
+      css/media_query.css: {}
+      css/normalize.css: {}
+      css/owl.carousel.css: {}
+      css/owl.theme.default.css: {}
+      css/search.css: {}
+      css/style.css: {}
+      css/sidebar.css: {}
+      'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': {  type: external }
+      'https://fonts.googleapis.com/css?family=Poppins': {  type: external }
+
+global-js:
+  dependencies:
+    - js/main.js
+    - js/bootstrap.js
+    - js/jquery.stellar.min.js
+    - js/jquery.waypoints.min.js
+    - js/modernizr-3.5.0.min.js
+    - js/owl.carousel.min.js
